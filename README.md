@@ -30,6 +30,10 @@
                  <li>The creation process is secured by the JWT Authentication. 
                      </li>
         </ul></p>
+        
+        
+        
+
 </li>
 <li> <strong>Users can edit, pause, or delete their checks if needed.</strong>  
     <br>
@@ -72,3 +76,15 @@
         </ul></p>
 </li>
 </ul>
+
+<h1>Diagrams</h1>
+
+<ol>
+<li><h2>System flow Design</h2></li>
+<img src="https://user-images.githubusercontent.com/42626745/127575821-9828c0fe-a667-4bfd-8990-f7a8d6ee40d6.png" alt="System flow diagram">
+</ol>
+
+<ol>
+    <li><h2>Entites relation diagram</h2></li>
+    <img src=https://user-images.githubusercontent.com/42626745/127579251-260eae1d-2679-4e9b-931d-0746043c4080.png alt="Entity diagram"> </ol>
+
