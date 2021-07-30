@@ -260,7 +260,6 @@
     <img src="https://user-images.githubusercontent.com/42626745/127659397-db9c2ff8-8e56-4a68-97a8-bd344b99718c.png" alt="main function">
     </li>
 </ol>
-
 <h1>The Report Process</h1>
 <p>In this section, I will post screen shoots for real tests for 4 websites,<strong>I will discuss the history in other section</strong> </p>
     <ul>
@@ -268,44 +267,49 @@
             <ol>
                 <li><h4>Check parameters</h4>
                     <img src="https://user-images.githubusercontent.com/42626745/127663194-f119841f-fd9e-4abd-b0e9-8dcb9ee97c6e.png" alt=""> 
-                    <p></p>
+                    <p>Here the check is doing checking every 5 seconds and with a timeout space 2 seconds , user entered a link as a webhook to recieve reports logger by just post request <strong>will discuss report in history section</strong>. 
+                    user will recieve an email if the site is down 100 times <strong>(I put large number to prevent sending emails while doing this test)</strong> </p>
                 </li>
                 <li><h4>Report parameters</h4>
                     <img src="https://user-images.githubusercontent.com/42626745/127663233-2db45112-60e1-499c-a894-550fddb27cd0.png" alt=""> 
-                    <p></p>
-                </li>
+                    <p>Report here is visualize the last status of the check,logs are saved in history. the Timestamp here is for the date of last report.</p>
+                    <p>Here Google makes 192 successful connections and 11 failures, then availability is 94%. During the test Google was up for 960 seconds and down for 55 seconds,average responsetime is 792 ms.</p>                </li>
             </ol>
         </li>
         <li><h3>Facebook</h3> <ol>
             <li><h4>Check parameters</h4>
                 <img src="https://user-images.githubusercontent.com/42626745/127663096-27ba3b49-7376-434d-9c60-588de9039dd4.png" alt=""> 
-                <p></p>
-            </li>
+                <p>Here the check is doing checking every 10 seconds and with a timeout space 2 seconds , user entered a link as a webhook to recieve reports logger by just post request <strong>will discuss report in history section</strong>. 
+                    user will recieve an email if the site is down 100 times <strong>(I put large number to prevent sending emails while doing this test)</strong> </p>            </li>
             <li><h4>Report parameters</h4>
                 <img src="https://user-images.githubusercontent.com/42626745/127663134-7af4dbb2-049f-4a38-b6be-76bbd6235966.png" alt=""> 
-                <p></p>
+                <p>Report here is visualize the last status of the check,logs are saved in history. the Timestamp here is for the date of last report.</p>
+                <p>Here Facebook makes 89 successful connections and 10 failures, then availability is 89%. During the test Facebook was up for 890 seconds and down for 100 seconds,average responsetime is 1098 ms.</p>
             </li>
         </ol></li>
         <li><h3>Twitter</h3> <ol>
             <li><h4>Check parameters</h4>
                 <img src="https://user-images.githubusercontent.com/42626745/127663330-c00dd5c3-cf41-4e53-8af8-1880418d626e.png" alt=""> 
-                <p></p>
-            </li>
+                <p>Here the check is doing checking every 10 seconds and with a timeout space 2 seconds , user entered a link as a webhook to recieve reports logger by just post request <strong>will discuss report in history section</strong>. 
+                    user will recieve an email if the site is down 100 times <strong>(I put large number to prevent sending emails while doing this test)</strong> </p>            </li>
             <li><h4>Report parameters</h4>
                 <img src="https://user-images.githubusercontent.com/42626745/127663297-e44766d5-6999-470e-ab7c-6a81df4c9a83.png" alt=""> 
-                <p></p>
+                <p>Report here is visualize the last status of the check,logs are saved in history. the Timestamp here is for the date of last report.</p>
+                <p>Here Twitter makes 95 successful connections and 2 failures, then availability is 97%. During the test Twitter was up for 950 seconds and down for 20 seconds,average responsetime is 1093 ms.</p>
             </li>
         </ol></li>
         <li><h3>Unexisted website</h3> <ol>
             <li><h4>Check parameters</h4>
                 <img src="https://user-images.githubusercontent.com/42626745/127663364-27523d37-cb41-42e2-8e57-7d7276512ec9.png" alt=""> 
-                <p></p>
-            </li>
+                <p>Here the check is doing checking every 10 seconds and with a timeout space 2 seconds , user entered a link as a webhook to recieve reports logger by just post request <strong>will discuss report in history section</strong>. 
+                    user will recieve an email if the site is down 100000 times <strong>(I put large number to prevent sending emails while doing this test)</strong> </p>            </li>
             <li><h4>Report parameters</h4>
-                <img src="https://user-images.githubusercontent.com/42626745/127663454-348b873e-1970-430a-a080-7423c23ac3d5.png" alt=""> 
-                <p></p>
-            </li>
+                <img src="https://user-images.githubusercontent.com/42626745/127666943-fd0dfa9e-4464-43f1-a411-af1b6fa2362d.png" alt=""> 
+                <p>Report here is visualize the last status of the check,logs are saved in history. the Timestamp here is for the date of last report.</p>
+                <p>Here Unexisted website makes 0 successful connections and 94 failures, then availability is 0%. During the test it was up for 0 seconds and down for 940 seconds,average responsetime is 1600 ms <strong>as timeout triggerd so response time is arround the timeout which was 2000 ms</strong> .</p>            </li>
         </ol></li>
     </ul>
+    
+    
 
 
