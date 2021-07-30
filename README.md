@@ -222,6 +222,7 @@
 </li>
 <li>
      <h2>Configurations</h2>
+    <p>You have to edit your own config file to run the server,config file here on github is empty</p>
     <ul>
         <li> PORT  </li>
         <li> MONGO_URI </li>
@@ -231,10 +232,21 @@
         <li> TOKEN_MAX_AGE_IN_SEC</li> 
         <li> SENDER_EMAIL</li>
        <li> SENDER_EMAIL_PASSWORD</li> 
-       <p>Note: you have to configure your email to be able to sent emails , the following link makes the server able to send emails by your email.  <a href="https://myaccount.google.com/lesssecureapps?pli=1&rapt=AEjHL4Nup2vghZ0_X7nag49iZFRG_b2RGbeaRi9ERqZ37gl5nFBy_XczxqiouH0q1eS9zR-xKz48PXIXgppvsEHffFscRZ-gRA">Link</a></p> 
-       <p>you can use other email than your primative one</p> 
+       <p>Note: You have to configure your email to be able to sent emails , the following link makes the server able to send emails by your email.<a href="https://myaccount.google.com/lesssecureapps?pli=1&rapt=AEjHL4Nup2vghZ0_X7nag49iZFRG_b2RGbeaRi9ERqZ37gl5nFBy_XczxqiouH0q1eS9zR-xKz48PXIXgppvsEHffFscRZ-gRA"> Link</a><br>You can use other email than your primative one   </p> 
     </ul>
 </li>
+<li><h2>Dependencies</h2></li>
+<ul>
+    <li>"axios": "^0.21.1",</li>
+    <li>"bcryptjs": "^2.4.3",</li>
+    <li>"cookie-parser": "^1.4.5",</li>
+    <li>"dotenv": "^10.0.0",</li>
+    <li>"express": "^4.17.1",</li>
+    <li>"joi": "^17.4.1",</li>
+    <li>"jsonwebtoken": "^8.5.1",</li>
+    <li>"mongoose": "^5.13.3",</li>
+    <li>"nodemailer": "^6.6.3"</li>
+</ul>
 </ol>
 
 
