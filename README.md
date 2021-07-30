@@ -2,8 +2,17 @@
 <h1>Table of Content</h1>
 <ol>
     <li><a href="https://github.com/mohamedashraf24695/Monitoring_RESTFul_API/blob/main/README.md#features"></a><h2>Features</h2></li>
-    <li><a href="https://github.com/mohamedashraf24695/Monitoring_RESTFul_API/blob/main/README.md#diagrams"></a><h2>Diagrams</h2></li>
-    <li><a href="https://github.com/mohamedashraf24695/Monitoring_RESTFul_API/blob/main/README.md#how-to-run-the-server"></a><h2>How to run the server</h2></li>
+    <li><a href="https://github.com/mohamedashraf24695/Monitoring_RESTFul_API/blob/main/README.md#diagrams"></a><h2>Diagrams</h2>
+    <ol>
+        <li><a href="https://github.com/mohamedashraf24695/Monitoring_RESTFul_API/blob/main/README.md#system-flow-design"></a><h3>System flow Design</h3></li>
+        <li><a href="https://github.com/mohamedashraf24695/Monitoring_RESTFul_API/blob/main/README.md#entites-relation-diagram"></a><h3>Entites relation diagram</h3></li>
+
+    </ol></li>
+    <li><a href="https://github.com/mohamedashraf24695/Monitoring_RESTFul_API/blob/main/README.md#how-to-run-the-server"></a><h2>How to run the server</h2> <ol>
+        <li><a href="https://github.com/mohamedashraf24695/Monitoring_RESTFul_API/blob/main/README.md#restful-apis"></a><h3>RESTful APIs</h3></li>
+        <li><a href="https://github.com/mohamedashraf24695/Monitoring_RESTFul_API/blob/main/README.md#configurations"></a><h3>Configurations</h3></li>
+        <li><a href="https://github.com/mohamedashraf24695/Monitoring_RESTFul_API/blob/main/README.md#dependencies"></a><h3>Dependencies</h3></li>
+    </ol></li>
     <li><a href="https://github.com/mohamedashraf24695/Monitoring_RESTFul_API/blob/main/README.md#the-code"></a><h2>The Code </h2></li>
     <li><a href="https://github.com/mohamedashraf24695/Monitoring_RESTFul_API/blob/main/README.md#the-report-process"></a><h2>The Report Process</h2></li>
     <li><a href="https://github.com/mohamedashraf24695/Monitoring_RESTFul_API/blob/main/README.md#history"></a><h2>History</h2></li>
