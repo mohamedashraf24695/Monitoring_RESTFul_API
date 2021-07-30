@@ -304,12 +304,12 @@
                 <p>Here the check is doing checking every 10 seconds and with a timeout space 2 seconds , user entered a link as a webhook to recieve reports logger by just post request <strong>will discuss report in history section</strong>. 
                     user will recieve an email if the site is down 100000 times <strong>(I put large number to prevent sending emails while doing this test)</strong> </p>            </li>
             <li><h4>Report parameters</h4>
-                <img src="https://user-images.githubusercontent.com/42626745/127666943-fd0dfa9e-4464-43f1-a411-af1b6fa2362d.png" alt=""> 
+                <img src="https://user-images.githubusercontent.com/42626745/127667349-df2874c5-9d83-4dc3-ba3a-3c60806f5b90.png" alt=""> 
                 <p>Report here is visualize the last status of the check,logs are saved in history. the Timestamp here is for the date of last report.</p>
                 <p>Here Unexisted website makes 0 successful connections and 94 failures, then availability is 0%. During the test it was up for 0 seconds and down for 940 seconds,average responsetime is 1600 ms <strong>as timeout triggerd so response time is arround the timeout which was 2000 ms</strong> .</p>            </li>
         </ol></li>
     </ul>
     
-    
+
 
 
