@@ -309,7 +309,14 @@
                 <p>Here Unexisted website makes 0 successful connections and 94 failures, then availability is 0%. During the test it was up for 0 seconds and down for 940 seconds,average responsetime is 1600 ms <strong>as timeout triggerd so response time is arround the timeout which was 2000 ms</strong> .</p>            </li>
         </ol></li>
     </ul>
-    
-
-
+  <h1>History</h1>
+    <ol>
+        <li><h4>history array</h4>
+        <p>history array containing all logs of reports , after the check finshes the report , it pushes an history log in history array before the next update</p></li>
+        <img src="https://user-images.githubusercontent.com/42626745/127668944-adc0ea6f-3b45-40a0-95da-89829274d015.png" alt=""> 
+        <li><h4>history array elements</h4>
+        <p>Here a look for each log. you can check updates and on the top the report is updated</p>
+        <img src="https://user-images.githubusercontent.com/42626745/127668996-2262111d-df00-4e8b-9ceb-64bf886dc487.png" alt=""> 
+    </li>
+    </ol>
 
