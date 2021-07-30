@@ -114,3 +114,120 @@
         </ol>  
     </li>
 </ol>
+
+
+<h3>How to run the server</h3>
+
+<ol>
+    <li>
+        <h4>RESTful APIs</h4>
+        <ul>
+            <li>
+                <h5>User</h5>
+                <ul>
+                    <li>
+                        <h6>POST</h6>
+                        <ul>
+                            <li>Register
+                                <p>/api/user/register</p>
+                            </li>
+                            <li>Login
+                                <p>/api/user/login</p>
+                            </li>
+                            <li>Logout</li>
+                            <p>/api/user/logout</p>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <h5>Check</h5>
+            <li>
+                <h6>GET</h6>
+                <ul>
+                    <li>Read one check
+                        <p>/api/check/read/one/:check_name</p>
+                    </li>
+                    <li>Read All
+                        <p>/api/check/read/all</p>
+                    </li>
+                    <li>Read Tag
+                        <p>/api/check/read/tag/:tag_name</p>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <h6>POST</h6>
+                <ul>
+                    <li>Create
+                        <p>/api/check/create</p>
+                    </li>
+                    <li>Pause
+                        <p>/api/check/pause</p>
+                    </li>
+                    <li>Active
+                        <p>/api/check/active</p>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <h6>PATCH</h6>
+                <ul>
+                    <li>Update name
+                        <p>api/check/update/check/name</p>
+                    </li>
+                    <li>Update URL
+                        <p>api/check/update/check/URL</p>
+                    </li>
+                    <li>add tag
+                        <p>api/check/update/tags/add</p>
+                    </li>
+                    <li>Update one tag
+                        <p>api/check/update/tags/one</p>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <h6>DELETE</h6>
+                <ul>
+                    <li>Delete one check
+                        <p>api/check/delete/check/one</p>
+                    </li>
+                    <li>Delete all checks
+                        <p>api/check/delete/check/all</p>
+                    </li>
+                    <li>Delete all tags
+                        <p>api/check/delete/tags/all</p>
+                    </li>
+                    <li>Delete one Tag
+                        <p>api/check/delete/tags/one</p>
+                    </li>
+                </ul>
+           </li>
+</li>
+    <li>
+        <h5>Report</h5>
+    <li>
+        <h6>GET</h6>
+        <ul>
+            <li>Read All Reports
+                <p>/api/report/read/all</p>
+            </li>
+            <li>Read One Report
+                <p>/api/report/read/name/:report_name</p>
+            </li>
+            <li>Read by Tag
+                <p>/api/report/read/tag/:tag_name</p>
+            </li>
+            <li>Read Report logs
+                <p>/api/report/read/logs/:report_name</p>
+            </li>
+        </ul>
+    </li>
+    </li>
+</ul>
+</li>
+<li>
+    <h4>Configuration file</h4>
+</li>
+</ol>
