@@ -215,9 +215,6 @@
             <li>Read by Tag
                 <p>/api/report/read/tag/:tag_name</p>
             </li>
-            <li>Read Report logs
-                <p>/api/report/read/logs/:report_name</p>
-            </li>
         </ul>
     </li>
     </li>
