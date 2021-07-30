@@ -240,7 +240,6 @@
        <li> SENDER_EMAIL_PASSWORD</li> 
        <p>Note: you have to configure your email to be able to sent emails , the following link makes the server able to send emails by your email.  <a href="https://myaccount.google.com/lesssecureapps?pli=1&rapt=AEjHL4Nup2vghZ0_X7nag49iZFRG_b2RGbeaRi9ERqZ37gl5nFBy_XczxqiouH0q1eS9zR-xKz48PXIXgppvsEHffFscRZ-gRA">Link</a></p> 
        <p>you can use other email than your primative one</p> 
- 
     </ul>
 </li>
 </ol>
