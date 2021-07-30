@@ -261,3 +261,51 @@
     </li>
 </ol>
 
+<h1>The Report Process</h1>
+<p>In this section, I will post screen shoots for real tests for 4 websites,<strong>I will discuss the history in other section</strong> </p>
+    <ul>
+        <li><h3>Google</h3>
+            <ol>
+                <li><h4>Check parameters</h4>
+                    <img src="https://user-images.githubusercontent.com/42626745/127663194-f119841f-fd9e-4abd-b0e9-8dcb9ee97c6e.png" alt=""> 
+                    <p></p>
+                </li>
+                <li><h4>Report parameters</h4>
+                    <img src="https://user-images.githubusercontent.com/42626745/127663233-2db45112-60e1-499c-a894-550fddb27cd0.png" alt=""> 
+                    <p></p>
+                </li>
+            </ol>
+        </li>
+        <li><h3>Facebook</h3> <ol>
+            <li><h4>Check parameters</h4>
+                <img src="https://user-images.githubusercontent.com/42626745/127663096-27ba3b49-7376-434d-9c60-588de9039dd4.png" alt=""> 
+                <p></p>
+            </li>
+            <li><h4>Report parameters</h4>
+                <img src="https://user-images.githubusercontent.com/42626745/127663134-7af4dbb2-049f-4a38-b6be-76bbd6235966.png" alt=""> 
+                <p></p>
+            </li>
+        </ol></li>
+        <li><h3>Twitter</h3> <ol>
+            <li><h4>Check parameters</h4>
+                <img src="https://user-images.githubusercontent.com/42626745/127663330-c00dd5c3-cf41-4e53-8af8-1880418d626e.png" alt=""> 
+                <p></p>
+            </li>
+            <li><h4>Report parameters</h4>
+                <img src="https://user-images.githubusercontent.com/42626745/127663297-e44766d5-6999-470e-ab7c-6a81df4c9a83.png" alt=""> 
+                <p></p>
+            </li>
+        </ol></li>
+        <li><h3>Unexisted website</h3> <ol>
+            <li><h4>Check parameters</h4>
+                <img src="https://user-images.githubusercontent.com/42626745/127663364-27523d37-cb41-42e2-8e57-7d7276512ec9.png" alt=""> 
+                <p></p>
+            </li>
+            <li><h4>Report parameters</h4>
+                <img src="https://user-images.githubusercontent.com/42626745/127663454-348b873e-1970-430a-a080-7423c23ac3d5.png" alt=""> 
+                <p></p>
+            </li>
+        </ol></li>
+    </ul>
+
+
