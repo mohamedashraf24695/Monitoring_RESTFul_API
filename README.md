@@ -105,4 +105,15 @@
 <ol>
     <li><h2>Entites relation diagram</h2></li>
     <img src=https://user-images.githubusercontent.com/42626745/127579251-260eae1d-2679-4e9b-931d-0746043c4080.png alt="Entity diagram">  
+     <ol>
+        <li><h4>User/Check entities relation</h4>
+            <p><strong>One to One relation</strong> with email as primary and forigen key for both of them</p>
+        </li>
+        <li><h4>Check/Report entities relation</h4>
+            <p><strong>One to One relation</strong> with email and name as combined primary and forigen key for both of them</p>
+        </li>
+        <li><h4>Why I made check and report two different things ?</h4>
+            <p><strong>Because of normalization</strong>, tags here is in both of them as I want old logs to contain the old tags that can be edited or removed in future by client  </p>
+        </li>
+    </ol>
     </ol>
