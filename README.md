@@ -248,6 +248,16 @@
     <li>"nodemailer": "^6.6.3"</li>
 </ul>
 </ol>
-
-
+<h1>The Code</h1>
+<ol>
+    <li><h2>Code Tree</h2>
+            <img src="https://user-images.githubusercontent.com/42626745/127660025-05908d1f-b74f-4d1c-be8b-70e9f0abffd8.png" alt="main file">
+    </li>
+    <li> <h2>main file</h2>
+    <img src="https://user-images.githubusercontent.com/42626745/127659303-bb4f3d2e-d3ed-473c-a777-22469963be9c.png" alt="main file">
+    </li>
+    <li><h2>main function</h2>
+    <img src="https://user-images.githubusercontent.com/42626745/127659397-db9c2ff8-8e56-4a68-97a8-bd344b99718c.png" alt="main function">
+    </li>
+</ol>
 
