@@ -6,7 +6,6 @@
     <ol>
         <li><a href="https://github.com/mohamedashraf24695/Monitoring_RESTFul_API/blob/main/README.md#system-flow-design"></a><h3>System flow Design</h3></li>
         <li><a href="https://github.com/mohamedashraf24695/Monitoring_RESTFul_API/blob/main/README.md#entites-relation-diagram"></a><h3>Entites relation diagram</h3></li>
-
     </ol></li>
     <li><a href="https://github.com/mohamedashraf24695/Monitoring_RESTFul_API/blob/main/README.md#how-to-run-the-server"></a><h2>How to run the server</h2> <ol>
         <li><a href="https://github.com/mohamedashraf24695/Monitoring_RESTFul_API/blob/main/README.md#restful-apis"></a><h3>RESTful APIs</h3></li>
