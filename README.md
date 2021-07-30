@@ -77,43 +77,40 @@
 </li>
 </ul>
 
-
 <h1>Diagrams</h1>
-
 <ol>
-
-<li><h2>System flow Design</h2></li>
-<img src="https://user-images.githubusercontent.com/42626745/127575821-9828c0fe-a667-4bfd-8990-f7a8d6ee40d6.png" alt="System flow diagram">
-
-<h3>The server is doing two main process </h3>
-
-<ol>
-    <li><h4>RESTful APIs Response</h4>
-        <p>Respont to the Allowed CRUD operations on database from the client.Allowed here means that the client is authorizated to only CRUD on his data</li>
-    <li> <h4>Polling function</h4>
-    <ul>
-        <li>Read All data from the database</li>
-        <li>Run each check and generate reports</li>
-        <li>check that data in database is the same as the last processed data</li>
-        <li>if any change happended to a check, system will <strong>only update</strong> the changed check , so other checks and reports are running normally without any pause</li>
-        <li>Polling function using setInterval function , so the RESTful requests will not pause the checks to respond to client</li>
-    </ul></li>
+    <li><h2>System flow Design</h2>
+        <img src="https://user-images.githubusercontent.com/42626745/127575821-9828c0fe-a667-4bfd-8990-f7a8d6ee40d6.png" alt="System flow diagram">
+        <h3>The server is doing two main process </h3>
+        <ol>
+           <li>
+               <h4>RESTful APIs Response</h4>
+                <p>Respont to the Allowed CRUD operations on database from the client.Allowed here means that the client is authorizated to only CRUD on his data </p>
+           </li>
+            <li>
+                <h4>Polling function</h4>
+                <ul>
+                    <li>Read All data from the database</li>
+                    <li>Run each check and generate reports</li>
+                    <li>check that data in database is the same as the last processed data</li>
+                    <li>if any change happended to a check, system will <strong>only update</strong> the changed check , so other checks and reports are running normally without any pause</li>
+                   <li>Polling function using setInterval function , so the RESTful requests will not pause the checks to respond to client</li>
+                </ul>
+            </li>
+      </ol> 
+    </li>  
+    <li><h2>Entites relation diagram</h2>
+        <img src=https://user-images.githubusercontent.com/42626745/127579251-260eae1d-2679-4e9b-931d-0746043c4080.png alt="Entity diagram">  
+        <ol>
+            <li><h4>User/Check entities relation</h4>
+                <p><strong>One to One relation</strong> with email as primary and forigen key for both of them</p>
+            </li>
+            <li><h4>Check/Report entities relation</h4>
+                <p><strong>One to One relation</strong> with email and name as combined primary and forigen key for both of them</p>
+            </li>
+            <li><h4>Why I made check and report two different things ?</h4>
+                <p><strong>Because of normalization</strong></p>
+            </li>
+        </ol>  
+    </li>
 </ol>
-
-</ol>
-
-<ol>
-    <li><h2>Entites relation diagram</h2></li>
-    <img src=https://user-images.githubusercontent.com/42626745/127579251-260eae1d-2679-4e9b-931d-0746043c4080.png alt="Entity diagram">  
-     <ol>
-        <li><h4>User/Check entities relation</h4>
-            <p><strong>One to One relation</strong> with email as primary and forigen key for both of them</p>
-        </li>
-        <li><h4>Check/Report entities relation</h4>
-            <p><strong>One to One relation</strong> with email and name as combined primary and forigen key for both of them</p>
-        </li>
-        <li><h4>Why I made check and report two different things ?</h4>
-            <p><strong>Because of normalization</strong>, tags here is in both of them as I want old logs to contain the old tags that can be edited or removed in future by client  </p>
-        </li>
-    </ol>
-    </ol>
