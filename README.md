@@ -96,7 +96,7 @@
       </ol> 
     </li>  
     <li><h2>Entites relation diagram</h2>
-        <img src=https://user-images.githubusercontent.com/42626745/127579251-260eae1d-2679-4e9b-931d-0746043c4080.png alt="Entity diagram">  
+        <img src=https://user-images.githubusercontent.com/42626745/127598804-cfbe7383-3454-4258-8a40-8353ca5964a2.png alt="Entity diagram">  
         <ol>
             <li><h4>User/Check entities relation</h4>
                 <p><strong>One to One relation</strong> with email as primary and forigen key for both of them</p>
