@@ -30,10 +30,6 @@
                  <li>The creation process is secured by the JWT Authentication. 
                      </li>
         </ul></p>
-        
-        
-        
-
 </li>
 <li> <strong>Users can edit, pause, or delete their checks if needed.</strong>  
     <br>
@@ -72,7 +68,7 @@
     <br>
     <p><ul>
                  <li>User can edit,remove,add tags
-                     </li>
+                    </li>
         </ul></p>
 </li>
 </ul>
@@ -116,17 +112,17 @@
 </ol>
 
 
-<h3>How to run the server</h3>
+<h1>How to run the server</h1>
 
 <ol>
     <li>
-        <h4>RESTful APIs</h4>
+        <h2>RESTful APIs</h2>
         <ul>
             <li>
-                <h5>User</h5>
+                <h3>User APIs</h3>
                 <ul>
                     <li>
-                        <h6>POST</h6>
+                        <h4>POST</h4>
                         <ul>
                             <li>Register
                                 <p>/api/user/register</p>
@@ -141,9 +137,9 @@
                 </ul>
             </li>
             <li>
-                <h5>Check</h5>
+                <h3>Check APIs</h3>
             <li>
-                <h6>GET</h6>
+                <h4>GET</h4>
                 <ul>
                     <li>Read one check
                         <p>/api/check/read/one/:check_name</p>
@@ -157,7 +153,7 @@
                 </ul>
             </li>
             <li>
-                <h6>POST</h6>
+                <h4>POST</h4>
                 <ul>
                     <li>Create
                         <p>/api/check/create</p>
@@ -171,7 +167,7 @@
                 </ul>
             </li>
             <li>
-                <h6>PATCH</h6>
+                <h4>PATCH</h4>
                 <ul>
                     <li>Update name
                         <p>api/check/update/check/name</p>
@@ -188,7 +184,7 @@
                 </ul>
             </li>
             <li>
-                <h6>DELETE</h6>
+                <h4>DELETE</h4>
                 <ul>
                     <li>Delete one check
                         <p>api/check/delete/check/one</p>
@@ -206,9 +202,9 @@
            </li>
 </li>
     <li>
-        <h5>Report</h5>
+        <h3>Report APIs</h3>
     <li>
-        <h6>GET</h6>
+        <h4>GET</h4>
         <ul>
             <li>Read All Reports
                 <p>/api/report/read/all</p>
@@ -228,7 +224,7 @@
 </ul>
 </li>
 <li>
-     <h4>Configurations</h4>
+     <h2>Configurations</h2>
     <ul>
         <li> PORT  </li>
         <li> MONGO_URI </li>
