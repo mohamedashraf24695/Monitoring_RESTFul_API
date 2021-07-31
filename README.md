@@ -22,6 +22,8 @@
     </li>
     <li><a href="https://github.com/mohamedashraf24695/Monitoring_RESTFul_API/blob/main/README.md#the-report-process"></a><h2>The Report Process</h2></li>
     <li><a href="https://github.com/mohamedashraf24695/Monitoring_RESTFul_API/blob/main/README.md#history"></a><h2>History</h2></li>
+     <li><h2>Docker</h2></li>
+     <li><h2>Unit tests</h2></li>
 </ol>
 
 <h1>Features</h1>
@@ -350,4 +352,10 @@
 <p>Map your port according to port 3000</p>
 <p>the link of docker image on docker hub : https://hub.docker.com/repository/docker/mohamedashraf24695/monitoring_project_main</p>
     
+<h1>Unit tests</h1>
+<p>I tested all the project as manually testing using postman <p>
+<p>To be honest, unit tests here isn't good and I didn't cover all the routes as the time run up</p>
+<p>I used mocha and chai for the testing</p>
+ <img src="https://user-images.githubusercontent.com/42626745/127728545-d5f7c129-96a5-470e-a41f-7d96e666e9ad.png" alt=""> 
+
 
