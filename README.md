@@ -345,6 +345,6 @@
 <h1>Docker</h1>
 <p>You can pull a docker image and run a container that will run the program</p>
 <p>Map your port according to port 3000</p>
-<p>the link of docker image on docker hub : https://hub.docker.com/repository/docker/mohamedashraf24695/monitoring_project_main <\p>
+<p>the link of docker image on docker hub : https://hub.docker.com/repository/docker/mohamedashraf24695/monitoring_project_main</p>
     
 
