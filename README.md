@@ -269,6 +269,9 @@
     <li>"jsonwebtoken": "^8.5.1",</li>
     <li>"mongoose": "^5.13.3",</li>
     <li>"nodemailer": "^6.6.3"</li>
+    <li>"chai": "^4.3.4"</li>
+    <li>"chai-http": "^4.3.0"</li>
+    <li>"mocha": "^6.2.3"</li>
 </ul>
 </ol>
 <h1>The Code</h1>
