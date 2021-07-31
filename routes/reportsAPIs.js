@@ -44,13 +44,11 @@ router.get(
 
         let allChecks = await checkControllers.findChecksByTag( req.params.tag_name,
           req.useremail) ;
-          console.log(allChecks);
 
         let result = await reportControllers.getReportsByTag(
           allChecks,
           req.useremail
         );
-        console.log(result);
         res.status(200).json(result);
       } catch (error) {
         res.status(400).json({ message: error.message });

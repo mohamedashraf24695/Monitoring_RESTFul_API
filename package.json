@@ -4,7 +4,7 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "mocha --timeout 10000 || true",
     "start": "node app.js"
   },
   "author": "",
@@ -19,5 +19,10 @@
     "jsonwebtoken": "^8.5.1",
     "mongoose": "^5.13.3",
     "nodemailer": "^6.6.3"
+  },
+  "devDependencies": {
+    "chai": "^4.3.4",
+    "chai-http": "^4.3.0",
+    "mocha": "^6.2.3"
   }
 }

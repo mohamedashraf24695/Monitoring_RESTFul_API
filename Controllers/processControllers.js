@@ -208,7 +208,6 @@ async function callWebHook(checkName, email) {
 await instance.post(currentWebhook, {
   "body":currentHistory
 }).catch((error)=>{
-  //console.log(error)
 }); 
 
 

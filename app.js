@@ -26,3 +26,6 @@ app.listen(3000, () => {
 });
 
 pollingProcess.mainProcess();
+
+
+module.exports = app ; 

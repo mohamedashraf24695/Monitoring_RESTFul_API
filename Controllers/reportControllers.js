@@ -120,7 +120,6 @@ async function getReportsByTag(allChecks , email){
   const names = [] ; 
 
   await allChecks.forEach(e=>{
-    console.log("Name is " +e.name);
     names.push(e.name) ; 
   })
 
