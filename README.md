@@ -234,8 +234,8 @@
             <li>Read All Reports
                 <p>/api/report/read/all</p>
             </li>
-            <li>Read One Report
-                <p>/api/report/read/name/:report_name</p>
+            <li>Read One Report   
+                <p>/api/report/read/erport/name/:report_name</p>
             </li>
             <li>Read by Tag
                 <p>/api/report/read/tag/:tag_name</p>
