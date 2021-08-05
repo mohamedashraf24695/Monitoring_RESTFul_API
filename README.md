@@ -124,7 +124,7 @@
         <img src=https://user-images.githubusercontent.com/42626745/127598804-cfbe7383-3454-4258-8a40-8353ca5964a2.png alt="Entity diagram">  
         <ol>
             <li><h4>User/Check entities relation</h4>
-                <p><strong>One to One relation</strong> with email as primary and forigen key for both of them</p>
+                <p><strong>One to Many relation</strong> with email as primary and forigen key for both of them</p>
             </li>
             <li><h4>Check/Report entities relation</h4>
                 <p><strong>One to One relation</strong> with email and name as combined primary and forigen key for both of them</p>
